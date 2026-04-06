@@ -159,6 +159,12 @@ section h2 {
     margin-bottom: 1rem;
 }
 
+.project-card .project-meta {
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 0.75rem;
+}
+
 .project-card a {
     color: #0066cc;
     font-weight: 500;
