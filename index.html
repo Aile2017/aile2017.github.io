@@ -50,9 +50,36 @@
             <div class="projects-grid">
                 <article class="project-card">
                     <h3>GreenPad</h3>
-                    <p>Lightweight Notepad replacement for Windows x64, with PCRE2 regex and charset auto-detection.</p>
+                    <p>Lightweight Notepad replacement for Windows x64.</p>
+                    <ul class="feature-list">
+                        <li>Unicode 14.0 support</li>
+                        <li>Proportional font rendering</li>
+                        <li>Syntax highlighting (customizable via <code>.kwd</code> files)</li>
+                        <li>Regular expression search powered by PCRE2</li>
+                        <li>Charset auto-detection via libchardet (optional)</li>
+                        <li>Wide encoding support: UTF-8/16/32, EUC-JP, Shift-JIS, GB18030, and more</li>
+                        <li>Word wrap (character or word boundary)</li>
+                        <li>Smart indentation</li>
+                        <li>UAC elevation support</li>
+                        <li>UI languages: English, Japanese, Simplified Chinese, Traditional Chinese, Korean, Russian — extensible via <code>.lng</code> files</li>
+                        <li>External filter (<code>Ctrl+\</code>): pipe selected text through any command-line program</li>
+                    </ul>
                     <p class="project-meta">C++ / Windows</p>
                     <a href="https://github.com/Aile2017/GreenPad" target="_blank">View on GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>libchardet</h3>
+                    <p>Mozilla's Universal Charset Detector C/C++ API. Used by GreenPad for automatic character encoding detection.</p>
+                    <p class="project-meta">C++</p>
+                    <a href="https://github.com/Aile2017/libchardet" target="_blank">View on GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>pcre2</h3>
+                    <p>Perl Compatible Regular Expressions (PCRE2). Used by GreenPad to provide powerful regex search functionality.</p>
+                    <p class="project-meta">C</p>
+                    <a href="https://github.com/Aile2017/pcre2" target="_blank">View on GitHub →</a>
                 </article>
             </div>
         </section>
