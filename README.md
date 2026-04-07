@@ -1,32 +1,33 @@
 # Aile2017.github.io
 
-Aile2017 の GitHub Pages ポートフォリオサイトです。
+This is Aile2017's GitHub Pages portfolio site.
 
 - URL: https://aile2017.github.io/
-- 内容: About / Projects / Contact を 1 ページで掲載
+- Content: About / Projects / Contact on a single page
 
 ## Projects
 
 ### GreenPad
 - Repository: https://github.com/Aile2017/GreenPad
-- 概要: Windows x64 向けの軽量テキストエディタ。
+- Overview: A lightweight text editor for Windows x64.
 
 ### GreenPad-translations
 - Repository: https://github.com/Aile2017/GreenPad-translations
-- 概要:
-  GreenPad の言語ファイル (.lng) を管理する翻訳リポジトリです。
-  上流 6 言語（English, Japanese, Chinese Simplified/Traditional, Korean, Russian）に加えて、
-  追加言語（例: French, German）を保守しています。
-- 同期運用:
-  GitHub Actions で upstream を日次同期し、新規キーは `[TODO]` 付きで自動挿入されます。
+- Overview:
+  A translation repository that manages GreenPad language files (.lng).
+  In addition to the 6 upstream languages (English, Japanese, Chinese Simplified/Traditional,
+  Korean, and Russian), it also maintains additional languages such as French and German.
+- Synchronization:
+  GitHub Actions performs daily sync from upstream, and newly added keys are automatically
+  inserted with a `[TODO]` marker.
 
 ### libchardet
 - Repository: https://github.com/Aile2017/libchardet
-- 概要: 文字コード自動判定で GreenPad から利用している C/C++ ライブラリ。
+- Overview: A C/C++ library used by GreenPad for automatic character encoding detection.
 
 ### pcre2
 - Repository: https://github.com/Aile2017/pcre2
-- 概要: GreenPad の正規表現検索機能で利用している C ライブラリ。
+- Overview: A C library used by GreenPad for regular expression search functionality.
 
 ## Repository Structure
 
@@ -46,5 +47,5 @@ Aile2017 の GitHub Pages ポートフォリオサイトです。
 
 ## Local Preview
 
-静的サイトのため、`index.html` をブラウザで開けば確認できます。
-必要に応じて Live Server などのローカルサーバーを使用してください。
+Since this is a static site, you can preview it by opening `index.html` in your browser.
+If needed, use a local server such as Live Server.
