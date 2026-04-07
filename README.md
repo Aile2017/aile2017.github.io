@@ -41,8 +41,6 @@ This is Aile2017's GitHub Pages portfolio site.
 |- sitemap.xml
 |- css/
 |  `- style.css
-|- js/
-`- projects/
 ```
 
 ## Local Preview
