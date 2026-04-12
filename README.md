@@ -21,6 +21,16 @@ This is Aile2017's GitHub Pages portfolio site.
   GitHub Actions performs daily sync from upstream, and newly added keys are automatically
   inserted with a `[TODO]` marker.
 
+### GreenPad-keywords
+- Repository: https://github.com/Aile2017/GreenPad-keywords
+- Overview:
+  A repository that manages GreenPad syntax-highlighting keyword files (.kwd).
+  It provides keyword definitions for multiple languages and file formats, including
+  both major and niche languages.
+- Format:
+  Each `.kwd` file defines syntax-highlighting behavior such as case sensitivity,
+  comment delimiters, quoted strings, and escape-sequence handling.
+
 ### libchardet
 - Repository: https://github.com/Aile2017/libchardet
 - Overview: A C/C++ library used by GreenPad for automatic character encoding detection.
