@@ -31,13 +31,16 @@ This is Aile2017's GitHub Pages portfolio site.
   Each `.kwd` file defines syntax-highlighting behavior such as case sensitivity,
   comment delimiters, quoted strings, and escape-sequence handling.
 
-### Noah
-- Repository: https://github.com/Aile2017/Noah
+### AileFlow
+- Repository: https://github.com/Aile2017/AileFlow
 - Overview:
-  A lightweight Windows drag-and-drop archiver frontend.
-  Drop files/folders onto Noah to compress them, or drop an archive to extract it.
-  Noah itself has no built-in archive engine — it delegates all archive operations to
-  external tools via B2E scripts placed in the `b2e\` subdirectory.
+  A lightweight Windows archive manager GUI.
+  Drives external command-line tools (7-Zip, WinRAR, etc.) through a script-based backend —
+  no archive DLLs are bundled with the application itself.
+- Features:
+  Browse archive contents with tree and list view, extract archives (full or selective,
+  format-dependent), create archives with format and compression method selection,
+  encrypted archive support with password prompt, and bilingual UI (English/Japanese).
 
 ### libchardet
 - Repository: https://github.com/Aile2017/libchardet
