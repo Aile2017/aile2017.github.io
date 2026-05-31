@@ -42,6 +42,18 @@ This is Aile2017's GitHub Pages portfolio site.
   format-dependent), create archives with format and compression method selection,
   encrypted archive support with password prompt, and bilingual UI (English/Japanese).
 
+### AileEx
+- Repository: https://github.com/Aile2017/AileEx
+- Overview:
+  A Windows archive manager supporting 7z, ZIP, RAR, TAR, GZ, BZ2, XZ, and more formats.
+  Browse, extract, and compress with 7z.dll, unrar.dll, and rar.exe backends.
+- Features:
+  Multi-format support (7z / ZIP / RAR / TAR / GZip / BZip2 / XZ / CAB / ISO and more),
+  browse, extract, compress, integrity test, and delete entries, drag & drop to open archives
+  or compress files, password protection and compression level selection,
+  split-volume compression / split-archive reading, recent archives history and MRU tracking,
+  and DPI-aware (Per-Monitor V2).
+
 ### libchardet
 - Repository: https://github.com/Aile2017/libchardet
 - Overview: A C/C++ library used by GreenPad for automatic character encoding detection.
