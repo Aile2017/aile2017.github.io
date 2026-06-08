@@ -194,7 +194,7 @@ section h2 {
 /* Projects Grid */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 1.5rem;
 }
@@ -218,6 +218,12 @@ section h2 {
     border-left: 4px solid #1a6b3c;
     background: linear-gradient(135deg, #f0faf4 0%, #f9fffe 100%);
     padding: 2rem;
+}
+
+/* Featured Aile card */
+.project-card.featured.featured-aile {
+    background: linear-gradient(135deg, #f0f4f9 0%, #f9fbff 100%);
+    border-left: 4px solid #2c3e50;
 }
 
 .featured-label {
