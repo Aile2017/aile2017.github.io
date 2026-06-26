@@ -34,7 +34,7 @@ This is Aile2017's GitHub Pages portfolio site.
 ### Aile
 - Repository: https://github.com/Aile2017/Aile
 - Overview:
-  A unified Windows archive manager GUI that seamlessly integrates the robust multi-format support of 7z.dll with the flexibility of script-based execution (B2E).
+  A unified Windows archive manager GUI that seamlessly integrates the robust multi-format support of 7z.dll with the flexibility of script-based execution (B2E). It was created by merging two separate applications: AileEx and AileFlow into a single unified program.
 - Features:
   Browse archive contents with tree and list view, extract archives, create archives with format and compression method selection. Multi-format support (7z / ZIP / TAR / GZip / BZip2 / XZ / Zstd and more), encrypted archive support with password prompt, split-volume handling, and a bilingual UI (English/Japanese). Features recent archives history and drag & drop support, fully DPI-aware (Per-Monitor V2).
 
