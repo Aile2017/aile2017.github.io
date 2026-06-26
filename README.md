@@ -31,28 +31,12 @@ This is Aile2017's GitHub Pages portfolio site.
   Each `.kwd` file defines syntax-highlighting behavior such as case sensitivity,
   comment delimiters, quoted strings, and escape-sequence handling.
 
-### AileFlow
-- Repository: https://github.com/Aile2017/AileFlow
+### Aile
+- Repository: https://github.com/Aile2017/Aile
 - Overview:
-  A lightweight Windows archive manager GUI.
-  Drives external command-line tools (7-Zip, WinRAR, etc.) through a script-based backend —
-  no archive DLLs are bundled with the application itself.
+  A unified Windows archive manager GUI that seamlessly integrates the robust multi-format support of 7z.dll with the flexibility of script-based execution (B2E).
 - Features:
-  Browse archive contents with tree and list view, extract archives (full or selective,
-  format-dependent), create archives with format and compression method selection,
-  encrypted archive support with password prompt, and bilingual UI (English/Japanese).
-
-### AileEx
-- Repository: https://github.com/Aile2017/AileEx
-- Overview:
-  A Windows archive manager supporting 7z, ZIP, RAR, TAR, GZ, BZ2, XZ, and more formats.
-  Browse, extract, and compress with 7z.dll, unrar.dll, and rar.exe backends.
-- Features:
-  Multi-format support (7z / ZIP / RAR / TAR / GZip / BZip2 / XZ / CAB / ISO and more),
-  browse, extract, compress, integrity test, and delete entries, drag & drop to open archives
-  or compress files, password protection and compression level selection,
-  split-volume compression / split-archive reading, recent archives history and MRU tracking,
-  and DPI-aware (Per-Monitor V2).
+  Browse archive contents with tree and list view, extract archives, create archives with format and compression method selection. Multi-format support (7z / ZIP / TAR / GZip / BZip2 / XZ / Zstd and more), encrypted archive support with password prompt, split-volume handling, and a bilingual UI (English/Japanese). Features recent archives history and drag & drop support, fully DPI-aware (Per-Monitor V2).
 
 ### libchardet
 - Repository: https://github.com/Aile2017/libchardet
