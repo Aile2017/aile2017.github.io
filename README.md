@@ -42,6 +42,10 @@ This is Aile2017's GitHub Pages portfolio site.
 - Repository: https://github.com/Aile2017/libchardet
 - Overview: A C/C++ library used by GreenPad for automatic character encoding detection.
 
+### compact_enc_det
+- Repository: https://github.com/Aile2017/compact_enc_det
+- Overview: A compact encoding-detection library used by GreenPad as an additional charset detection option.
+
 ### pcre2
 - Repository: https://github.com/Aile2017/pcre2
 - Overview: A C library used by GreenPad for regular expression search functionality.
